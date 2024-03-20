@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- google font link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- external css link -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- navbar section -->
+      <nav>
+        <h1 class="nav-title">
+          Noor <span class="banner-last-name">M</span>ohammad
+        </h1>
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Banner section -->
+      <section class="banner">
+        <div>
+          <h3 class="banner-sub-title">Hi,I am</h3>
+          <h1 class="banner-title">
+            Noor <span class="banner-last-name">M</span>ohammad
+          </h1>
+          <p class="banner-paragraph">
+            "I code with HTML and CSS, turning ideas into web reality.
+            Passionate about design and simplicity, I'm on a mission to create
+            user-friendly digital experiences. Let's build your vision
+            together!"
+          </p>
+        </div>
+        <img
+          src="./images/noor.png"
+          alt="this is banner profile picture"
+          height="584"
+          width="676"
+        />
+      </section>
+    </header>
+
+    <main>
+      <section class="about-me">
+        <h3 id="about-me" class="about-me-title">About me</h3>
+        <p class="about-me-description">
+          I am a hafiz Maolana from qawmi madrasa and a web development
+          enthusiast, seeking knowledge and expertise in the ever-evolving world
+          of technology. My commitment to continuous learning drives me to
+          explore the vast possibilities of web development.
+        </p>
+      </section>
+      <!-- skills section -->
+      <h3 id="skills" class="skills-section-title">Skills</h3>
+      <section class="skills-section">
+        <div class="skill-container">
+          <div class="skill">
+            <img src="./images/icons/html.png" alt="html picture" />
+            <h4>HTML</h4>
+            <p>
+              Create well-structured HTML documents. Use semantic HTML elements
+              for better accessibility and SEO.
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <div class="skill">
+            <img src="./images/icons/css.png" alt="css picture" />
+            <h4>CSS</h4>
+            <p>
+              understanding of CSS for styling. ability to use Flexbox or Grid
+              for layout.
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-container">
+          <div class="skill">
+            <img src="./images/icons/javascript.png" alt="js picture" />
+            <h4>Javascript</h4>
+            <p>
+              Include interactive elements using JavaScript. understanding of
+              basic DOM manipulation.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <h3 class="skills-section-title">contact</h3>
+      <section id="contact" class="contact-section">
+        <form>
+          <label for="name">your name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="your name"
+          /><br /><br />
+          <label for="email">your email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email"
+          /><br /><br />
+          <input class="submit-button" type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p class="footer">© 2024 Noor Mohammad. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
